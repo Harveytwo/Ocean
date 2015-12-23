@@ -1,0 +1,166 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #122981 url("../img/gradient_bg.jpg") repeat-x;/*#4B65D3*/
+	color: #FFFFFF;
+	min-width: 1024px;
+	-weblit-min-width: 800px;
+}
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FF9600;
+}
+ul,li {
+	list-style: none;
+}
+h1,h2,h3,h4 {
+	color: #FF9600;
+}
+#wrap {
+	width: 536px;
+	margin: 200px auto 0 auto;
+	z-index: 6;
+	padding: 0 20px;
+	position: relative;
+}
+.intro h1 {
+	background: transparent url(../img/h1.gif) no-repeat top left;
+	width: 355px;
+	height: 29px;
+	float: left;
+	padding: 29px;
+	margin: 0;
+}
+.intro p:nth-child(2) {
+	/*float: right;*/
+}
+.intro h2 {
+	/*background: transparent url(../img/divider01.jpg) no-repeat;*/
+}
+.main div {
+	position: absolute;
+	z-index: 0;
+}
+
+.intro .divider1 {
+	height: 50px;
+	width: 100%;
+	float: left;
+	background: transparent url(../img/divider01.jpg) no-repeat;
+}
+.main .divider2 {
+	height: 50px;
+	width: 100%;
+	float: left;
+	background: transparent url(../img/divider02.jpg) no-repeat;
+}
+.main .divider3 {
+	height: 50px;
+	width: 100%;
+	float: left;
+	background: transparent url(../img/divider03.jpg) no-repeat;
+}
+.main .divider4 {
+	height: 50px;
+	width: 100%;
+	float: left;
+	background: transparent url(../img/divider04.jpg) no-repeat;
+}
+.main .divider5 {
+	height: 50px;
+	width: 100%;
+	float: left;
+	background: transparent url(../img/divider05.jpg) no-repeat;
+}
+.main .divider6 {
+	height: 50px;
+	width: 100%;
+	float: left;
+	background: transparent url(../img/divider06.jpg) no-repeat;
+}
+
+aside {
+	position: absolute;
+	right: -120px;
+	top: 90px;
+}
+aside li {
+	height: 22px;
+	line-height: 22px;
+}
+aside h4 {
+	color: #FF9600;
+	padding: 0 30px;
+}
+
+.extra1,.extra2,.extra3,.extra4,.extra5,.extra6 { position: absolute;}
+.extra1 {
+	background: url(../img/clouds.jpg) repeat-x;
+	width: 100%;
+	height: 104px;
+	top: 0;
+	right: 0;
+}
+.extra2 {
+	background: url(../img/water_edge.jpg) repeat-x;
+	top: 104px;
+	right: 0;
+	width: 100%;
+	height: 75px;
+}
+.extra3 {
+	background: url(../img/fish01.jpg) no-repeat right top;
+	z-index: 3;
+	top: 960px;
+	right: 4%;
+	width: 300px;
+	height: 123px;
+}
+.extra3:after {
+	display: block;
+	content: "";
+	background: url(../img/fish_bottom.gif) no-repeat;
+	z-index: 3;
+	position: absolute;
+	top: 1200px;
+	width: 224px;
+	height: 108px;
+}
+.extra4 {
+	background: url(../img/sunlight.jpg) no-repeat;
+	z-index: 3;
+	top: 0;
+	left: 0;
+	width: 472px;
+	height: 481px;
+}
+.extra5 {
+	background: url(../img/fish_top.gif) no-repeat;
+	top: 220px;
+	left: 20px;
+	width: 180px;
+	height: 80px;
+	z-index: 7;
+}
+.extra6 {
+	background: url(../img/seafloor_bg.jpg) repeat-x left bottom;
+	z-index: 2;
+	top: 145em;
+	left: 0;
+	width: 100%;
+	height: 426px;
+}
+.extra6:after {
+	display: block;
+	content: "";
+	background: url(../img/seafloor.jpg) no-repeat;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 633px;
+	height: 426px;
+}
